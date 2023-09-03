@@ -34,11 +34,21 @@ export default function IntroInteractions() {
       </a>
 
       {/* Social Media */}
-      <a className="text-white> flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition-transform hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-100">
+      <a
+        className="text-white> flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-gray-700 transition-transform hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-100"
+        href="https://www.linkedin.com/in/gustavo-h-batista/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <BsLinkedin />
       </a>
 
-      <a className="text-white> flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-xl text-gray-700 transition-transform hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-100">
+      <a
+        className="text-white> flex items-center gap-2 rounded-full border border-black/10 bg-white p-4 text-xl text-gray-700 transition-transform hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-100"
+        href="https://github.com/gustavohdab"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FaGithubSquare />
       </a>
     </motion.div>
