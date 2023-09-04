@@ -23,7 +23,7 @@ export default function IntroContent() {
   return (
     // Wrap the paragraph with AnimatePresence to enable animation transitions.
     <AnimatePresence>
-      <p className="mb-10 mt-4 px-4 text-2xl font-medium tracking-wide sm:text-4xl">
+      <h1 className="mb-10 mt-4 px-4 text-2xl font-medium tracking-wide sm:text-4xl">
         {segments.map((segment) => {
           // Handle string segments.
           if (typeof segment === 'string') {
@@ -61,7 +61,7 @@ export default function IntroContent() {
             })
           }
         })}
-      </p>
+      </h1>
     </AnimatePresence>
   )
 }

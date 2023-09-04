@@ -33,7 +33,7 @@ const AnimatedBlur = () => {
     <>
       <motion.div
         {...horizontalMotion}
-        className="absolute right-[11rem] top-[-6rem] -z-10 h-[31.5rem] w-[31.5rem] rounded-full bg-gradient-to-r from-[#2d74f8] via-[#000000] to-[#2d74f8] opacity-70 blur-[10rem] sm:w-[68.75rem]"
+        className="absolute right-[11rem] top-[-6rem] -z-10 h-[31.5rem] w-[31.5rem] rounded-full bg-gradient-to-r from-[#f8c92d] via-[#000000] to-[#f8c92d] opacity-70 blur-[10rem] sm:w-[68.75rem]"
       />
       <motion.div
         {...verticalMotion}

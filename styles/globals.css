@@ -8,5 +8,8 @@ a {
 
 .grainy {
   background-image: url('/grainy.png');
-  
+}
+
+.grainy-dark {
+  background-image: url('/grainy-dark.png');
 }
