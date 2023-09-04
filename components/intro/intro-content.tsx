@@ -10,10 +10,10 @@ export default function IntroContent() {
     { text: 'Gustavo', style: 'font-bold' },
     '. A 22 yo ',
     { text: 'full-stack developer', style: 'font-bold' },
-    ' based in Brazil with 1 year of experience. I enjoy building ',
-    { text: 'sites & apps', style: 'text-blue-500 italic' },
+    ' based in Brazil with 8 months of professional experience. I enjoy building ',
+    { text: 'sites & apps', style: 'text-gray-50 italic' },
     '. My focus is ',
-    { text: 'React (Next.js)', style: 'underline' },
+    { text: 'React *~~Next.js', style: 'underline' },
     '.',
   ]
 
